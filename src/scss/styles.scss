@@ -1,12 +1,19 @@
 // Custom variable overrides go here
 // For options, see node_modules/bootstrap/scss/_variables.scss
 // examples:
-// $body-bg: black;
+$body-bg: #ededed;
 // $body-color: white;
 // $link-hover-color: grey;
 // $font-family-sans-serif: "Helvetica Neue";
+$theme-colors: (
+  "primary": #bf5700
+);
 
 // Import Bootstrap styles
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
 // Import partials here
+.jumbotron {
+  background-color: #ffffff;
+  border-top: 3px solid rgb(219, 219, 219);
+}
